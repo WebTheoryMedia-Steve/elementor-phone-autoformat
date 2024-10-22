@@ -2,7 +2,7 @@
 /*
 Plugin Name: Elementor Phone Number Auto-Format
 Description: Automatically formats phone numbers in the 000-000-0000 format on Elementor forms.
-Version: 1.0
+Version: 2.0
 Author: WebTheory Media LLC
 */
 
