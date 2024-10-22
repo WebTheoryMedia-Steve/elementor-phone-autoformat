@@ -18,5 +18,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
             e.target.value = formattedInput; // Set the formatted value back into the input field
         });
+
+        // Add pattern validation for phone numbers
+        phoneField.setAttribute('pattern', '^[0-9\\(\\)\\-\\+\\s]*$');
+        phoneField.setAttribute('title', 'Phone number must be in the format 000-000-0000');
     }
 });
